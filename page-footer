@@ -1,0 +1,225 @@
+<footer class="page-footer">
+	<div class="page-footer__container container">
+		<div class="page-footer__info">
+			<a class="logo page-footer__logo" href="index.html">
+	<span class="visually-hidden">На главную.</span>
+
+	<img src="images/logo.svg" width="144" height="28" alt="Логотип compo.">
+</a>
+
+			<div class="page-footer__support">
+				<ul class="support ">
+			<li>
+			<a class="support__link" href="tel:+78008419595">
+				8 800 841-95-95
+				<p class="support__ad">Служба поддержки</p>
+			</a>
+		</li>
+			<li>
+			<a class="support__link" href="mailto:support@sport.ru">
+				support@sport.ru
+				<p class="support__ad">Служба поддержки</p>
+			</a>
+		</li>
+	</ul>
+			</div>
+
+			<div class="page-footer__nav-footer">
+				<div class="nav-footer">
+	<ul class="nav-footer__list">
+					<li>
+				<a class="nav-footer__link" href="#!">
+					Вакансии
+				</a>
+			</li>
+					<li>
+				<a class="nav-footer__link" href="#!">
+					Блог
+				</a>
+			</li>
+					<li>
+				<a class="nav-footer__link" href="#!">
+					Акции
+				</a>
+			</li>
+			</ul>
+
+	<button class="nav-footer__button" type="button">
+		Предложить  идею
+	</button>
+</div>
+			</div>
+
+		</div>
+		<div class="goods page-footer__goods">
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Женщинам
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Одежда
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Обувь
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Аксессуары
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Белье
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Bra fitting
+					</a>
+				</li>
+					</ul>
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Мужчинам
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Одежда
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Обувь
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Аксессуары
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Белье
+					</a>
+				</li>
+					</ul>
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Детям
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Одежда
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Обувь
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Аксессуары
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Белье
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Игрушки
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Малыши
+					</a>
+				</li>
+					</ul>
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Виды спорта
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Велоспорт
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Туризм
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Тренажеры и фитнес
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Командные виды спорта
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Самокаты
+					</a>
+				</li>
+					</ul>
+	</div>
+
+		<div class="document page-footer__document">
+	<ul class="document__list">
+					<li>
+				<a class="document__link document__link--icon document__link--icon-doc" href="#!">
+					PDF  презентация
+				</a>
+			</li>
+					<li>
+				<a class="document__link document__link--icon document__link--icon-video" href="#!">
+					Видео инструкция
+				</a>
+			</li>
+					<li>
+				<a class="document__link document__link--icon document__link--icon-info" href="#!">
+					FAQ
+				</a>
+			</li>
+					<li>
+				<a class="document__link document__link--icon document__link--icon-youtube" href="#!">
+					Мы на YouTube
+				</a>
+			</li>
+					<li>
+				<a class="document__link " href="#!">
+					Политика конфиденциальности 
+				</a>
+			</li>
+					<li>
+				<a class="document__link " href="#!">
+					Лицензионное соглашение
+				</a>
+			</li>
+			</ul>
+</div>
+
+		<p class="page-footer__politic">
+			Настоящая Политика обработки персональных данных разработана в соответствии с Конституцией Российской Федерации,
+						Трудовым кодексом Российской Федерации, Гражданским кодексом Российской Федерации, Федеральным законом от 27 июля 2006 года 149-ФЗ
+						"Об информации, информационных технологиях и о защите информации",
+		</p>
+
+		<div class="page-footer__advertising">
+			<a class="page-footer__logo-advertising" href="index.html">
+				<span class="visually-hidden">Логотип.</span>
+			</a>
+			<p class="page-footer__advertising-text">Разработка платформы</p>
+		</div>
+	</div>
+</footer>

@@ -1,0 +1,14 @@
+<ul class="support ">
+			<li>
+			<a class="support__link" href="tel:+78008419595">
+				8 800 841-95-95
+				<p class="support__ad">Служба поддержки</p>
+			</a>
+		</li>
+			<li>
+			<a class="support__link" href="mailto:support@sport.ru">
+				support@sport.ru
+				<p class="support__ad">Служба поддержки</p>
+			</a>
+		</li>
+	</ul>

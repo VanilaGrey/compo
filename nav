@@ -1,0 +1,31 @@
+<div class="nav ">
+	<ul class="nav__list">
+					<li>
+				<a class="nav__link" href="#!">
+					Мои заказы
+				</a>
+			</li>
+					<li>
+				<a class="nav__link" href="#!">
+					Сотрудники
+				</a>
+			</li>
+					<li>
+				<a class="nav__link" href="#!">
+					Шаблоны заказов
+				</a>
+			</li>
+					<li>
+				<a class="nav__link" href="#!">
+					Обращения
+				</a>
+			</li>
+			</ul>
+	<div class="nav__buttons">
+		<button class="button-icon button-icon--helper" type="button">Ваш менеджер
+		</button>
+		<button class="button-icon button-icon--stock" type="button">Акции
+		</button>
+		<a href="#!" class="nav_link">Блог</a>
+	</div>
+</div>

@@ -1,0 +1,122 @@
+<div class="goods ">
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Женщинам
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Одежда
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Обувь
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Аксессуары
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Белье
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Bra fitting
+					</a>
+				</li>
+					</ul>
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Мужчинам
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Одежда
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Обувь
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Аксессуары
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Белье
+					</a>
+				</li>
+					</ul>
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Детям
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Одежда
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Обувь
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Аксессуары
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Белье
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Игрушки
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Малыши
+					</a>
+				</li>
+					</ul>
+			<ul class="goods__list">
+			<li class="goods__heading">
+			Виды спорта
+			</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Велоспорт
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Туризм
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Тренажеры и фитнес
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Командные виды спорта
+					</a>
+				</li>
+							<li class="goods__item">
+					<a class="goods__link" href="#!">
+						Самокаты
+					</a>
+				</li>
+					</ul>
+	</div>
