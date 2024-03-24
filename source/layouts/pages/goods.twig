@@ -1,0 +1,16 @@
+<div class="goods {{ bemMix }}">
+	{% for section in sections %}
+		<ul class="goods__list">
+			<li class="goods__heading">
+			{{ section.heading }}
+			</li>
+			{% for link in section.goods %}
+				<li class="goods__item">
+					<a class="goods__link" href="{{ link.url }}">
+						{{ link.title }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	{% endfor %}
+</div>

@@ -1,0 +1,119 @@
+.icon {
+	display: flex;
+	flex-shrink: 0;
+	justify-content: end;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	margin: 8px 25px;
+	background-color: #1551e5;
+
+	&--notification {
+		border-right: 1px solid #e2e4f0;
+
+		@include graphic-icon("icon-notification");
+	}
+
+	&--likes {
+		background-color: #77829e;
+
+		@include graphic-icon("icon-likes");
+	}
+
+	&--user {
+		width: 24px;
+		height: 24px;
+		margin: 0;
+		padding: 0;
+
+		@include graphic-icon("icon-arrow");
+	}
+}
+
+.button-icon {
+	position: relative;
+	display: flex;
+	flex-shrink: 0;
+	justify-content: end;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 12px 27px;
+	font-weight: 700;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	border-radius: 8px;
+
+	&::after {
+		content: "";
+		position: absolute;
+		left: 22px;
+		display: block;
+		width: 24px;
+		height: 24px;
+	}
+
+	&--basket {
+		width: 148px;
+		color: #1551e5;
+		background-color: #f2f6ff;
+
+		&::after {
+			background-color: #1551e5;
+
+			@include graphic-icon("icon-basket");
+		}
+	}
+
+	&--menu {
+		width: 128px;
+		margin-right: 24px;
+		color: #f2f6ff;
+		background-color: #1551e5;
+
+		&::after {
+			background-color: #f2f6ff;
+
+			@include graphic-icon("icon-burger");
+		}
+	}
+
+	&--helper {
+		width: 170px;
+		height: 32px;
+		margin: 0;
+		padding: 8px 12px;
+		font-weight: 700;
+		font-size: 15px;
+		color: #1551e5;
+		background-color: #f2f6ff;
+		border-radius: 4px;
+
+		&::after {
+			width: 16px;
+			height: 16px;
+			background-color: #1551e5;
+
+			@include graphic-icon("icon-chat");
+		}
+	}
+
+	&--stock {
+		width: 112px;
+		margin-right: 14px;
+		padding: 8px 12px;
+		font-weight: 700;
+		font-size: 15px;
+		color: #1551e5;
+		background-color: transparent;
+
+		&::after {
+			width: 16px;
+			height: 16px;
+			background-color: #1551e5;
+
+			@include graphic-icon("icon-percent");
+		}
+	}
+}

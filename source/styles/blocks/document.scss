@@ -1,0 +1,43 @@
+.document__list {
+	display: flex;
+	justify-content: center;
+	gap: 28px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.document__link {
+	display: flex;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 133%;
+	color: #828ead;
+
+	&--icon {
+		&::before {
+			content: "";
+			display: block;
+			width: 16px;
+			height: 16px;
+			margin-right: 10px;
+			background-color: currentColor;
+		}
+
+		&-doc::before {
+			@include graphic-icon("icon-doc");
+		}
+
+		&-video::before {
+			@include graphic-icon("icon-video");
+		}
+
+		&-info::before {
+			@include graphic-icon("icon-info");
+		}
+
+		&-youtube::before {
+			@include graphic-icon("icon-youtube");
+		}
+	}
+}

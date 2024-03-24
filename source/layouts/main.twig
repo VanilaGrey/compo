@@ -7,14 +7,26 @@
 		<meta name="description" content="{{ description }}">
 		<link rel="stylesheet" href="{{ rootPath }}styles/main.css{{ version }}">
 
-		{% for weight in [400, 700] %}
-			<link rel="preload" href="fonts/ptsans-{{ weight }}.woff2" as="font" crossorigin="anonymous">
+		{% for weight in [400, 500, 700] %}
+			<link rel="preload" href="fonts/gotham-{{ weight }}.woff2" as="font" crossorigin="anonymous">
 		{% endfor %}
 	</head>
 	<body>
-		{# For svelte #}{# <div class="page">{{ app.page }}</div> #}
+		<div class="page">
+			{% block header %}
+				<h1 class="visually-hidden">{{ projectName }}</h1>
 
-		{# For vue #}{# {{ app.page }} #}
+				{% include 'pages/page-header.twig' %}
+			{% endblock %}
+			{#
+									<main>
+										{% block main %}{% endblock %}
+									</main> #}
+
+			{% block footer %}
+				{% include 'pages/page-footer.twig' %}
+			{% endblock %}
+		</div>
 
 		<script>
 			window.appData = {{ appData|json_encode() }};
@@ -25,7 +37,7 @@
 			<script>
 				window.pixelperfect = {{ pixelperfect }};
 			</script>
-			<script src="https://efiand.github.io/pixelperfect-tool/pixelperfect.min.js"></script>
+			<script src="https://efiand.github.io/pixelperfect-tool/pixelperfect.min.js" defer></script>
 		{% endif %}
 	</body>
 </html>

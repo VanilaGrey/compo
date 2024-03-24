@@ -1,0 +1,27 @@
+.page-header__container {
+	display: flex;
+	padding: 16px 24px;
+}
+
+.page-header__logo {
+	display: flex;
+	flex-shrink: 0;
+	margin-right: 24px;
+}
+
+.page-header__button {
+	width: 128px;
+	height: 48px;
+	margin-right: 24px;
+}
+
+.page-header__user-info {
+	margin-left: 22px;
+	padding: 8px 0;
+}
+
+.page-header__nav {
+	display: flex;
+	border-top: 1px solid #e2e4f0;
+	border-bottom: 1px solid #e2e4f0;
+}

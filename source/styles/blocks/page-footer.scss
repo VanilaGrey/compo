@@ -1,0 +1,76 @@
+.page-footer__container {
+	display: grid;
+}
+
+.page-footer__logo {
+	display: flex;
+	justify-content: center;
+	margin: -2px 0 0 8px;
+}
+
+.page-footer__logo img {
+	width: 206px;
+}
+
+.page-footer__support {
+	display: flex;
+	margin-left: 56px;
+}
+
+.page-footer__info {
+	display: grid;
+	grid-template-columns: 213px repeat(2, 1fr);
+	align-items: center;
+	padding: 48px 0;
+	border-top: 1px solid #e2e4f0;
+	border-bottom: 1px solid #e2e4f0;
+}
+
+.page-footer__nav-footer {
+	justify-self: end;
+	margin-top: -5px;
+}
+
+.page-footer__goods {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 24px;
+}
+
+.page-footer__document {
+	padding-top: 48px;
+	padding-bottom: 40px;
+}
+
+.page-footer__politic {
+	margin: 0;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 133%;
+	text-align: center;
+	color: #828ead;
+}
+
+.page-footer__advertising {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	padding-top: 40px;
+	padding-bottom: 48px;
+	color: #8f9bb3;
+
+	&-text {
+		margin: 0;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 114%;
+		color: #8f9bb3;
+	}
+}
+
+.page-footer__logo-advertising {
+	width: 123px;
+	height: 24px;
+	background-image: url("../images/logo-footer.svg");
+}

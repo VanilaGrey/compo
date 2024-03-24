@@ -1,0 +1,11 @@
+<div class="document {{bemMix}}">
+	<ul class="document__list">
+		{% for link in faq %}
+			<li>
+				<a class="document__link {{ link.svg ? 'document__link--icon document__link--' ~ link.svg }}" href="{{ link.url }}">
+					{{ link.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>

@@ -1,0 +1,32 @@
+<footer class="page-footer">
+	<div class="page-footer__container container">
+		<div class="page-footer__info">
+			{% include 'logo.twig' with { bemMix: 'page-footer__logo' } %}
+
+			<div class="page-footer__support">
+				{% include 'support.twig' %}
+			</div>
+
+			<div class="page-footer__nav-footer">
+				{% include 'nav-footer.twig' %}
+			</div>
+
+		</div>
+		{% include 'goods.twig' with { bemMix: 'page-footer__goods' } %}
+
+		{% include 'document.twig' with { bemMix: 'page-footer__document' } %}
+
+		<p class="page-footer__politic">
+			Настоящая Политика обработки персональных данных разработана в соответствии с Конституцией Российской Федерации,
+						Трудовым кодексом Российской Федерации, Гражданским кодексом Российской Федерации, Федеральным законом от 27 июля 2006 года 149-ФЗ
+						"Об информации, информационных технологиях и о защите информации",
+		</p>
+
+		<div class="page-footer__advertising">
+			<a class="page-footer__logo-advertising" {{ page == 'index' ? 'aria-current="page"' : 'href="index.html"' }}>
+				<span class="visually-hidden">Логотип.</span>
+			</a>
+			<p class="page-footer__advertising-text">Разработка платформы</p>
+		</div>
+	</div>
+</footer>

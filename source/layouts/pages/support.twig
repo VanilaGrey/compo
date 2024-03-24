@@ -1,0 +1,10 @@
+<ul class="support ">
+	{% for link in supportLinks %}
+		<li>
+			<a class="support__link" href="{{ link.url }}">
+				{{ link.title }}
+				<p class="support__ad">{{link.ad}}</p>
+			</a>
+		</li>
+	{% endfor %}
+</ul>

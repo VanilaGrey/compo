@@ -1,0 +1,15 @@
+<div class="nav-footer">
+	<ul class="nav-footer__list">
+		{% for link in footerLinks %}
+			<li>
+				<a class="nav-footer__link" href="{{ link.url }}">
+					{{ link.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+
+	<button class="nav-footer__button" type="button">
+		Предложить  идею
+	</button>
+</div>

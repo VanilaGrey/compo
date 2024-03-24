@@ -1,0 +1,18 @@
+<div class="nav {{ bemMix }}">
+	<ul class="nav__list">
+		{% for link in navLinks %}
+			<li>
+				<a class="nav__link" href="{{ link.url }}">
+					{{ link.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+	<div class="nav__buttons">
+		<button class="button-icon button-icon--helper" type="button">Ваш менеджер
+		</button>
+		<button class="button-icon button-icon--stock" type="button">Акции
+		</button>
+		<a href="#!" class="nav_link">Блог</a>
+	</div>
+</div>

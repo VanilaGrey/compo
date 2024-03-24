@@ -1,7 +1,7 @@
 html {
 	font-size: 16px;
 	line-height: 1.5;
-	font-family: "PT Sans", sans-serif;
+	font-family: "Gotham", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -21,6 +21,7 @@ video {
 }
 
 a {
+	text-decoration: none;
 	text-decoration-skip-ink: none;
 	color: inherit;
 
