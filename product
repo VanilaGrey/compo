@@ -1,0 +1,64 @@
+<form action="#" class="page__product product container">
+	<h2 class="product__heading">
+		Кроссовки мужские Skechers Sunny Dale
+	</h2>
+	<div class="product__container">
+		<div class="slider product__slider">
+	<div class="slider__body">
+		<ul class="slider__list">
+			<li class="slider__item slider__item--active">
+				<img src="./images/photo-1.jpg" alt="#" class="slider__image"></li>
+			<li class="slider__item">
+				<img src="./images/photo-2.jpg" alt="#" class="slider__image"></li>
+			<li class="slider__item">
+				<img src="./images/photo-3.jpg" alt="#" class="slider__image"></li>
+			<li class="slider__item">
+				<img src="./images/photo-4.jpg" alt="#" class="slider__image"></li>
+			<li class="slider__item">
+				<img src="./images/photo-5.jpg" alt="#" class="slider__image"></li>
+		</ul>
+	</div>
+	<button class="slider__control slider__control--prev" type="button">
+		<span class="visually-hidden">Предыдущий слайд.</span>
+	</button>
+	<button class="slider__control slider__control--next" type="button">
+		<span class="visually-hidden">Следующий слайд.</span>
+	</button>
+</div>
+		<div class="product__inner">
+			<div class="product__delivery">
+				<div class="price product__price">
+	<p class="price__old">166 534.00
+		цена без скидки</p>
+	<div class="price__container">
+		<p class="price__new">122 566 ₽</p>
+		<p class="price__discount">-15%</p>
+	</div>
+	<div class="price__container">
+		<p class="price__amount">12
+			штук в уп.</p>
+		<input class="price__checkbox visually-hidden" type="checkbox" name="Package" id="Package" checked="">
+		<label class="price__label" for="Package">Заказ упаковкой</label>
+	</div>
+</div>
+				<ul class="product__list">
+									</ul>
+				<div class="product__buttons">
+					<button class="button-icon button-icon--basket product__button product__button--basket" type="submit">в корзину</button>
+					<button class="button-icon button-icon--like product__button product__button--like" type="button">
+						<span class="visually-hidden">поставить лайк</span>
+					</button>
+				</div>
+			</div>
+			<div class="product__feature">
+				<p class="product__label product__label--middle"></p>
+				<ul class="product__list product__list--feature">
+									</ul>
+			</div>
+			<div class="product__about">
+				<h3 class="product__label">Описание товара</h3>
+				<p class="product__explanation">compo</p>
+			</div>
+		</div>
+	</div>
+</form>

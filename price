@@ -1,0 +1,14 @@
+<div class="price ">
+	<p class="price__old">
+		цена без скидки</p>
+	<div class="price__container">
+		<p class="price__new">[object Object]</p>
+		<p class="price__discount"></p>
+	</div>
+	<div class="price__container">
+		<p class="price__amount">12
+			штук в уп.</p>
+		<input class="price__checkbox visually-hidden" type="checkbox" name="Package" id="Package" checked="">
+		<label class="price__label" for="Package">Заказ упаковкой</label>
+	</div>
+</div>

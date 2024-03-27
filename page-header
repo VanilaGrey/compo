@@ -5,27 +5,28 @@
 
 	<img src="images/logo.svg" width="144" height="28" alt="Логотип compo.">
 </a>
-		<button class="button-icon  button-icon--menu" type="button">Меню</button>
-		<div class="page-header__input input">
-			<input class="input__search" type="text" placeholder="название запроса">
-			<button class="input__button input__button--close" type="button">
-				<span class="visually-hidden">очистить</span>
+		<button class="button-icon button-icon--menu" type="button">Меню</button>
+		<div class="input page-header__input">
+	<input class="input__search" type="text" placeholder="название запроса" >
+	<button class="input__button input__button--close" type="button">
+		<span class="visually-hidden">очистить</span>
+	</button>
+	<button class="input__button input__button--search" type="button">
+		<span class="visually-hidden">поиск</span>
+	</button>
+</div>
+		<div class="page-header__buttons">
+			<button class="page-header__button icon icon--notification" type="button">
+				<span class="visually-hidden">Оповещение</span>
 			</button>
-			<button class="input__button input__button--search" type="button">
-				<span class="visually-hidden">поиск</span>
+			<button class="page-header__button icon icon--likes" type="button">
+				<span class="visually-hidden">лайки</span>
 			</button>
 		</div>
-		<button class="icon icon--notification" type="button">
-			<span class="visually-hidden">Оповещение</span>
-		</button>
-		<button class="icon icon--likes" type="button">
-			<span class="visually-hidden">лайки</span>
-		</button>
-
 		<a href="#!" class="button-icon  button-icon--basket">144 235₽</a>
 		<div class="user-info page-header__user-info">
 	<img class="user-info__photo" src="images/user-photo.jpg" alt="Фото профиля">
-	<p class="user-info__named">Ермаков Е</p>
+	<p class="user-info__named">Ермаков Е.</p>
 	<button class="icon icon--user" type="button">
 		<span class="visually-hidden">
 			выбрать</span>

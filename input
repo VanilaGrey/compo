@@ -1,0 +1,9 @@
+<div class="input ">
+	<input class="input__search" type="text" placeholder="название запроса" >
+	<button class="input__button input__button--close" type="button">
+		<span class="visually-hidden">очистить</span>
+	</button>
+	<button class="input__button input__button--search" type="button">
+		<span class="visually-hidden">поиск</span>
+	</button>
+</div>
