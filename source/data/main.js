@@ -7,6 +7,7 @@ export default ({ error, pageName, status }) => ({
 		}
 	},
 	description: 'compo',
+
 	faq: [
 		{
 			svg: 'icon-doc',
@@ -37,6 +38,7 @@ export default ({ error, pageName, status }) => ({
 			url: '#!'
 		}
 	],
+
 	footerLinks: [
 		{
 			title: 'Вакансии',
@@ -51,6 +53,7 @@ export default ({ error, pageName, status }) => ({
 			url: '#!'
 		}
 	],
+	heading: 'Кроссовки мужские Skechers Sunny Dale',
 	navLinks: [
 		{
 			title: 'Мои заказы',
@@ -69,7 +72,65 @@ export default ({ error, pageName, status }) => ({
 			url: '#!'
 		}
 	],
+	packed: '12',
 	pixelperfect: JSON.stringify({ breakpoints: [1600], ext: 'webp' }),
+	price: {
+		discount: '-15%',
+		oldPrice: '166 534.00',
+		price: '122 566 ₽'
+	},
+	product: {
+		delivery: [
+			{
+				description: 'Доставка',
+				title: 'Завтра'
+			},
+			{
+				description: 'Тарасовка',
+				title: '7 шт.'
+			},
+			{
+				description: 'Тарасовка',
+				title: '7 шт.'
+			}
+		],
+		description: `Создание приверженного покупателя специфицирует неопровержимый комплексный анализ ситуации.
+								CTR существенно индуцирует из ряда вон выходящий SWOT-анализ. Воздействие на потребителя определяет возрастающий интеграл по поверхности,
+								что известно даже школьникам. Отсюда естественно следует, что коммуникация уравновешивает косвенный фактор коммуникации.
+								Поле направлений естественно допускает экспериментальный скачок функции, таким образом сбылась мечта идиота - утверждение полностью доказано.
+								 Арифметическая прогрессия притягивает линейно зависимый пул лояльных изданий.`,
+		feature: 'Характеристики',
+		features: [
+			{
+				description: 'Код поставщика',
+				title: 'ELC00696'
+			},
+			{
+				description: 'Артикул',
+				title: 'ELC0200000696'
+			},
+			{
+				description: 'Код РАЭК',
+				title: 'ELC00696'
+			},
+			{
+				description: 'Код ЕТМ',
+				title: 'ELC00696'
+			},
+			{
+				description: 'Бренд',
+				title: 'Electric used'
+			},
+			{
+				description: 'Серия',
+				title: 'ELC00696'
+			},
+			{
+				description: 'Код производителя ',
+				title: 'ELC0200000696'
+			}
+		]
+	},
 	projectName: 'compo',
 	sections: [
 		{
@@ -173,7 +234,6 @@ export default ({ error, pageName, status }) => ({
 			heading: 'Виды спорта'
 		}
 	],
-
 	supportLinks: [
 		{
 			ad: 'Служба поддержки',
@@ -185,5 +245,6 @@ export default ({ error, pageName, status }) => ({
 			title: 'support@sport.ru',
 			url: 'mailto:support@sport.ru'
 		}
-	]
+	],
+	title: 'Описание товара'
 });

@@ -1,23 +1,16 @@
 <div class="page-header">
 	<header class="page-header__container">
 		{% include 'logo.twig' with { bemMix: 'page-header__logo' } %}
-		<button class="button-icon  button-icon--menu" type="button">Меню</button>
-		<div class="page-header__input input">
-			<input class="input__search" type="text" placeholder="название запроса">
-			<button class="input__button input__button--close" type="button">
-				<span class="visually-hidden">очистить</span>
+		<button class="button-icon button-icon--menu" type="button">Меню</button>
+		{% include 'input.twig' with { bemMix: 'page-header__input' } %}
+		<div class="page-header__buttons">
+			<button class="page-header__button icon icon--notification" type="button">
+				<span class="visually-hidden">Оповещение</span>
 			</button>
-			<button class="input__button input__button--search" type="button">
-				<span class="visually-hidden">поиск</span>
+			<button class="page-header__button icon icon--likes" type="button">
+				<span class="visually-hidden">лайки</span>
 			</button>
 		</div>
-		<button class="icon icon--notification" type="button">
-			<span class="visually-hidden">Оповещение</span>
-		</button>
-		<button class="icon icon--likes" type="button">
-			<span class="visually-hidden">лайки</span>
-		</button>
-
 		<a href="#!" class="button-icon  button-icon--basket">144 235₽</a>
 		{% include 'user-info.twig' with { bemMix: 'page-header__user-info' } %}
 

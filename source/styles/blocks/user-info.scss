@@ -1,19 +1,16 @@
 .user-info {
 	display: flex;
 	align-items: center;
-	width: 169px;
-	height: 32px;
 }
 
 .user-info__photo {
-	width: 32px;
-	height: 32px;
 	border-radius: 4px;
 }
 
 .user-info__named {
-	margin: 8px 16px;
+	margin: 0 0 0 15px;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 114%;
+	white-space: nowrap;
 }

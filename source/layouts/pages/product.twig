@@ -1,0 +1,42 @@
+<form action="#" class="page__product product container">
+	<h2 class="product__heading">
+		{{heading}}
+	</h2>
+	<div class="product__container">
+		{% include 'slider.twig' with { bemMix: 'product__slider' } %}
+		<div class="product__inner">
+			<div class="product__delivery">
+				{% include 'price.twig' with price|merge({ bemMix: 'product__price' }) %}
+				<ul class="product__list">
+					{% for item in delivery %}
+						<li>
+							<p class="product__title">{{item.title}}</p>
+							<p class="product__description">{{item.description}}</p>
+						</li>
+					{% endfor %}
+				</ul>
+				<div class="product__buttons">
+					<button class="button-icon button-icon--basket product__button product__button--basket" type="submit">в корзину</button>
+					<button class="button-icon button-icon--like product__button product__button--like" type="button">
+						<span class="visually-hidden">поставить лайк</span>
+					</button>
+				</div>
+			</div>
+			<div class="product__feature">
+				<p class="product__label product__label--middle">{{feature}}</p>
+				<ul class="product__list product__list--feature">
+					{% for item in features %}
+						<li>
+							<p class="product__title">{{item.title}}</p>
+							<p class="product__description">{{item.description}}</p>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="product__about">
+				<h3 class="product__label">{{title}}</h3>
+				<p class="product__explanation">{{description}}</p>
+			</div>
+		</div>
+	</div>
+</form>

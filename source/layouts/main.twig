@@ -18,10 +18,12 @@
 
 				{% include 'pages/page-header.twig' %}
 			{% endblock %}
-			{#
-									<main>
-										{% block main %}{% endblock %}
-									</main> #}
+
+			<main>
+				{% block main %}
+					{% include 'pages/product.twig' with product %}
+				{% endblock %}
+			</main>
 
 			{% block footer %}
 				{% include 'pages/page-footer.twig' %}

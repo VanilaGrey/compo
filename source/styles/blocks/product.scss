@@ -1,0 +1,141 @@
+.product {
+	padding-top: 68px;
+	padding-bottom: 13px;
+}
+
+.product__container {
+	display: grid;
+	grid-template-columns: 400px 1fr;
+	gap: 48px;
+	margin-top: 27px;
+}
+
+.product__inner {
+	display: grid;
+	grid-template-columns: 420px 1fr;
+	margin-top: 25px;
+}
+
+.product__heading {
+	margin: 0;
+	padding: 0;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #071435;
+}
+
+.product__about {
+	grid-column: -1 / 1;
+	margin-top: 37px;
+}
+
+.product__price {
+	padding-bottom: 27px;
+	border-bottom: 1px solid #e2e4f0;
+}
+
+.product__delivery {
+	padding-right: 30px;
+	border-right: 1px solid #e2e4f0;
+}
+
+.product__feature {
+	margin-top: 4px;
+	padding-left: 48px;
+}
+
+.product__list {
+	display: flex;
+	gap: 70px;
+	margin: 14px 0 12px;
+	padding: 16px 0;
+	list-style-type: none;
+
+	&--feature {
+		display: grid;
+		gap: 22px;
+		grid-template-columns: 1fr 1fr;
+		margin: 0;
+		margin-top: 12px;
+
+		& li:nth-child(even) {
+			margin-left: 5px;
+		}
+	}
+}
+
+.product__description {
+	margin: 0;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 133%;
+	color: #828ead;
+}
+
+.product__title {
+	margin: 0 0 14px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 114%;
+	color: #071435;
+}
+
+.product__label {
+	margin: 0;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 117%;
+	letter-spacing: -0.65px;
+	color: #071435;
+
+	&--middle {
+		font-size: 20px;
+		color: #071435;
+		text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	}
+}
+
+.product__explanation {
+	margin-top: 25px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 156%;
+	color: #071435;
+}
+
+.product__buttons {
+	display: flex;
+	width: calc(100% - 105px);
+}
+
+.product__button {
+	&--basket {
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 0;
+		padding: 16px 8px;
+		color: #ffffff;
+		background-color: #1551e5;
+
+		&::before {
+			color: currentColor;
+			background-color: currentColor;
+		}
+	}
+
+	&--like {
+		margin: auto;
+		margin-left: 16px;
+		padding: 16px 24px;
+
+		&::before {
+			margin: auto;
+			background-color: #1551e5;
+
+			@include graphic-icon("icon-likes");
+		}
+	}
+}
