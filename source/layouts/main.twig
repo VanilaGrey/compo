@@ -16,17 +16,17 @@
 			{% block header %}
 				<h1 class="visually-hidden">{{ projectName }}</h1>
 
-				{% include 'pages/page-header.twig' %}
+				{% include 'cpmponents/page-header.twig' %}
 			{% endblock %}
 
 			<main>
 				{% block main %}
-					{% include 'pages/product.twig' with product %}
+					{% include 'cpmponents/product.twig' with product %}
 				{% endblock %}
 			</main>
 
 			{% block footer %}
-				{% include 'pages/page-footer.twig' %}
+				{% include 'cpmponents/page-footer.twig' %}
 			{% endblock %}
 		</div>
 
