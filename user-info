@@ -1,8 +1,0 @@
-<div class="user-info ">
-	<img class="user-info__photo" src="images/user-photo.jpg" alt="Фото профиля">
-	<p class="user-info__named">Ермаков Е.</p>
-	<button class="icon icon--user" type="button">
-		<span class="visually-hidden">
-			выбрать</span>
-	</button>
-</div>
