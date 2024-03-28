@@ -30,8 +30,8 @@
 		width: 148px;
 		margin: 0 10px 0 0;
 		padding: 12px 24px;
-		color: #1551e5;
-		background-color: #f2f6ff;
+		color: $color-navy-blue;
+		background-color: $color-alice-blue;
 
 		&::before {
 			background-color: currentColor;
@@ -43,8 +43,8 @@
 	&--menu {
 		width: 128px;
 		margin-left: 9px;
-		color: #f2f6ff;
-		background-color: #1551e5;
+		color: $color-alice-blue;
+		background-color: $color-navy-blue;
 
 		&::before {
 			background-color: currentColor;
@@ -60,14 +60,14 @@
 		padding: 8px 12px;
 		font-weight: 700;
 		font-size: 15px;
-		color: #1551e5;
-		background-color: #f2f6ff;
+		color: $color-navy-blue;
+		background-color: $color-alice-blue;
 		border-radius: 4px;
 
 		&::before {
 			width: 16px;
 			height: 16px;
-			background-color: #1551e5;
+			background-color: $color-navy-blue;
 
 			@include graphic-icon("icon-chat");
 		}
@@ -79,13 +79,13 @@
 		padding: 8px 12px;
 		font-weight: 700;
 		font-size: 15px;
-		color: #1551e5;
+		color: $color-navy-blue;
 		background-color: transparent;
 
 		&::before {
 			width: 16px;
 			height: 16px;
-			background-color: #1551e5;
+			background-color: $color-navy-blue;
 
 			@include graphic-icon("icon-percent");
 		}

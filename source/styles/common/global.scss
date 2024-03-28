@@ -35,9 +35,9 @@ a {
 	&:active,
 	&:focus-visible,
 	&:focus {
-		color: #1551e5;
+		color: $color-navy-blue;
 		outline: none;
-		transition: all 0.3s;
+		transition: $transition-default;
 	}
 }
 

@@ -16,7 +16,7 @@
 	font-size: 32px;
 	line-height: 150%;
 	letter-spacing: 0.01em;
-	color: #071435;
+	color: $color-midnight-express;
 }
 
 .price__container {
@@ -31,7 +31,7 @@
 	font-weight: 700;
 	font-size: 16px;
 	text-align: center;
-	color: #ffffff;
+	color: $color-white;
 	background-color: #ff3d71;
 	border-radius: 4px;
 }
@@ -42,7 +42,7 @@
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 114%;
-	color: #828ead;
+	color: $color-ship-cove;
 	background-color: #f2f5f9;
 	border-radius: 8px;
 }
@@ -64,7 +64,7 @@
 		box-sizing: border-box;
 		width: 42px;
 		height: 24px;
-		background-color: #828ead;
+		background-color: $color-ship-cove;
 		border: none;
 		border-radius: 32px;
 	}
@@ -78,13 +78,13 @@
 		width: 20px;
 		height: 20px;
 		margin-top: -8px;
-		background-color: #ffffff;
+		background-color: $color-white;
 		border-radius: 50%;
 	}
 }
 
 .price__checkbox:checked + .price__label::before {
-	background-color: #1551e5;
+	background-color: $color-navy-blue;
 }
 
 .price__checkbox:checked + .price__label::after {

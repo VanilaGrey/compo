@@ -19,11 +19,11 @@
 	font-size: 14px;
 	line-height: 114%;
 	text-align: center;
-	color: #071435;
+	color: $color-midnight-express;
 
 	&:focus,
 	&:active {
-		color: #1551e5;
+		color: $color-navy-blue;
 		outline: none;
 	}
 }
@@ -37,5 +37,5 @@
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 114%;
-	color: #1551e5;
+	color: $color-navy-blue;
 }

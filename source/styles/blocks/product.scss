@@ -23,7 +23,7 @@
 	font-size: 32px;
 	line-height: 100%;
 	text-transform: uppercase;
-	color: #071435;
+	color: $color-midnight-express;
 }
 
 .product__about {
@@ -33,12 +33,12 @@
 
 .product__price {
 	padding-bottom: 27px;
-	border-bottom: 1px solid #e2e4f0;
+	border-bottom: 1px solid $color-lavender;
 }
 
 .product__delivery {
 	padding-right: 30px;
-	border-right: 1px solid #e2e4f0;
+	border-right: 1px solid $color-lavender;
 }
 
 .product__feature {
@@ -71,7 +71,7 @@
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 133%;
-	color: #828ead;
+	color: $color-ship-cove;
 }
 
 .product__title {
@@ -79,7 +79,7 @@
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 114%;
-	color: #071435;
+	color: $color-midnight-express;
 }
 
 .product__label {
@@ -88,11 +88,11 @@
 	font-size: 24px;
 	line-height: 117%;
 	letter-spacing: -0.65px;
-	color: #071435;
+	color: $color-midnight-express;
 
 	&--middle {
 		font-size: 20px;
-		color: #071435;
+		color: $color-midnight-express;
 		text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 	}
 }
@@ -102,7 +102,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 156%;
-	color: #071435;
+	color: $color-midnight-express;
 }
 
 .product__buttons {
@@ -117,8 +117,8 @@
 		width: 100%;
 		margin: 0;
 		padding: 16px 8px;
-		color: #ffffff;
-		background-color: #1551e5;
+		color: $color-white;
+		background-color: $color-navy-blue;
 
 		&::before {
 			color: currentColor;
@@ -133,7 +133,7 @@
 
 		&::before {
 			margin: auto;
-			background-color: #1551e5;
+			background-color: $color-navy-blue;
 
 			@include graphic-icon("icon-likes");
 		}

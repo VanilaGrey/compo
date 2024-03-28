@@ -22,8 +22,8 @@
 	grid-template-columns: 213px repeat(2, 1fr);
 	align-items: center;
 	padding: 48px 0;
-	border-top: 1px solid #e2e4f0;
-	border-bottom: 1px solid #e2e4f0;
+	border-top: 1px solid $color-lavender;
+	border-bottom: 1px solid $color-lavender;
 }
 
 .page-footer__nav-footer {
@@ -48,7 +48,7 @@
 	font-size: 12px;
 	line-height: 133%;
 	text-align: center;
-	color: #828ead;
+	color: $color-ship-cove;
 }
 
 .page-footer__advertising {
@@ -58,14 +58,14 @@
 	gap: 24px;
 	padding-top: 40px;
 	padding-bottom: 48px;
-	color: #8f9bb3;
+	color: $color-rock-blue;
 
 	&-text {
 		margin: 0;
 		font-weight: 700;
 		font-size: 14px;
 		line-height: 114%;
-		color: #8f9bb3;
+		color: $color-rock-blue;
 	}
 }
 

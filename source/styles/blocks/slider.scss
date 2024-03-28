@@ -31,7 +31,7 @@
 	width: 38px;
 	height: 64px;
 	padding: 0;
-	background-color: #f2f6ff;
+	background-color: $color-alice-blue;
 	border: 0;
 	transform: translateY(-50%);
 	transition: opacity 0.3s ease;
@@ -43,7 +43,7 @@
 		top: 13px;
 		width: 32px;
 		height: 32px;
-		background-color: #1551e5;
+		background-color: $color-navy-blue;
 
 		@include graphic-icon("icon-arrow-big");
 	}

@@ -17,7 +17,7 @@
 	font-size: 16px;
 	line-height: 125%;
 	text-align: center;
-	color: #071435;
+	color: $color-midnight-express;
 }
 
 .nav-footer__button {
@@ -26,8 +26,8 @@
 	font-size: 14px;
 	line-height: 114%;
 	text-align: center;
-	color: #1551e5;
-	background: #f2f6ff;
+	color: $color-navy-blue;
+	background-color: $color-alice-blue;
 	border: none;
 	border-radius: 8px;
 }
