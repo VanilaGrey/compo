@@ -16,8 +16,9 @@
 					{% endfor %}
 				</ul>
 				<div class="product__buttons">
-					<button class="button-icon button-icon--basket product__button product__button--basket" type="submit">в корзину</button>
-					<button class="button-icon button-icon--like product__button product__button--like" type="button">
+					<button class="button-icon button-icon--basket product__button product__button--basket" type="button" data-button >в корзину</button>
+					{% include 'counter.twig' with { bemMix: 'product__counter' } %}
+					<button class="button-icon button-icon--like product__button product__button--like" type="submit">
 						<span class="visually-hidden">поставить лайк</span>
 					</button>
 				</div>

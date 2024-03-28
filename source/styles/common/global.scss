@@ -30,6 +30,15 @@ a {
 	&:not([href]) {
 		pointer-events: none;
 	}
+
+	&:hover,
+	&:active,
+	&:focus-visible,
+	&:focus {
+		color: #1551e5;
+		outline: none;
+		transition: all 0.3s;
+	}
 }
 
 :focus-visible {
