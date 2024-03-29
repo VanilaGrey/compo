@@ -77,7 +77,7 @@ export default ({ error, pageName, status }) => ({
 	price: {
 		discount: '-15%',
 		oldPrice: '166 534.00',
-		price: '122 566 ₽'
+		price: '122 566₽'
 	},
 	product: {
 		delivery: [
